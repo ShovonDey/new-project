@@ -1,0 +1,240 @@
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+html{
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
+html,body{
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 24px;
+}
+h4{
+  font: 20px;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.top,.buttom{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.top{
+  top:0;
+}
+.bar::before,.bar::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.white,.white:hover{
+  color: #000!important;
+  background-color: #fff!important;
+}
+.padding{
+  padding: 8px 16px!important;
+}
+.card{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.button{
+  border:none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+
+}
+.button:hover{
+  color:#000!important;
+  background-color: #ccc!important;
+}
+.right{
+  float: right!important;
+}
+.display-container{
+  position: relative;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+.wide{
+  letter-spacing: 4px;
+}
+.image{
+  max-width: 100%;
+  height: auto;
+}
+.display-bottomleft{
+  position: absolute;
+  left: 0;
+  bottom:0;
+
+}
+.padding-large{
+  padding: 12px 24px!important;
+}
+.xxlarge{
+  font-size: 30px!important;
+}
+.row::before,.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.padding-64{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+.col{
+  float: left;
+  width: 100%;
+}
+.col,.mp{
+  width: 49.99999%
+}
+.padding-large{
+  padding: 12px 24px!important;
+}
+.round{
+  border-radius: 32px;
+}
+.center{
+  text-align: center!important;
+}
+.large{
+  font-size: 18px!important;
+}
+.light-grey,.hover-light-grey:hover{
+  color:#000!important;
+  background-color: #7676a6!important;
+}
+.text-grey,.hover-text-grey:hover{
+  color: #757575!important;
+}
+
+hr{
+  border:0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+
+}
+.col.16{
+  width: 49.99999%;
+}
+
+.table-had{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: normal;
+}
+.table-box{
+  margin: 10px auto;
+  margin-top: 60px;
+}
+.table-row{
+  display: table;
+  width: 95%;
+  margin: 10px  auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 5px 0;
+  color: #555;
+  font-size: 30px;
+  box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+  background: #7676a6;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+.table-head .table-cell{
+  border-right: none;
+}
+.table-cell{
+  display: table-cell;
+  width: 10%;
+  text-align: center;
+  padding: 0px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.first-cell{
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+}
+.last-cell{
+  border-right:none;
+  font-size: 20px;
+
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+.text-blue-grey, .hover-text-blue-grey:hover{
+  color: #607d8b;
+}
+.padding-16{
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+.input{
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width:100%;
+}
+.padding-32{
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+}
+.text-green,.hover-text-green:hover{
+  color: #4CAF50!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-had{
+    font-size: 11px;
+  }
+}
+
+@media (min-width:601px){.col.m6,.half{width:49.99999%}}
+@media (min-width:993px){.col.16{width:49.99999%}}
+@media (min-width:1205px){.auto{max-width: 95%}}
+@media (min-width:992px) and (min-width:601px) {.hide-medium{display: none!important}}
